@@ -6,4 +6,4 @@ Este repositório contém meus exercícios resolvidos em linguagem C, divididos 
 - `condicionais/`: Exercícios usando estruturas `if`, `else` e `switch`.
 - `repeticao/`: Exercícios com `for`, `while` e `do while`.
 
-💡 Em constante atualização!# Projetos em C
+💡 Em constante Evolução.
