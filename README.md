@@ -1,1 +1,21 @@
-# Projetos-C
+# Projetos em C
+
+Este repositório contém meus exercícios resolvidos em linguagem C, divididos por tipo de estrutura:
+
+- `sequenciais/`: Exercícios básicos de entrada, saída e cálculos simples.
+- `condicionais/`: Exercícios usando estruturas `if`, `else` e `switch`.
+- `repeticao/`: Exercícios com `for`, `while` e `do while`.
+
+Cada pasta contém arquivos `.c` devidamente comentados para facilitar o entendimento.
+
+💡 Em constante atualização!# Projetos em C
+
+Este repositório contém meus exercícios resolvidos em linguagem C, divididos por tipo de estrutura:
+
+- `sequenciais/`: Exercícios básicos de entrada, saída e cálculos simples.
+- `condicionais/`: Exercícios usando estruturas `if`, `else` e `switch`.
+- `repeticao/`: Exercícios com `for`, `while` e `do while`.
+
+Cada pasta contém arquivos `.c` devidamente comentados para facilitar o entendimento.
+
+💡 Em constante atualização!
