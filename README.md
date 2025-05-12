@@ -5,5 +5,7 @@ Este repositório contém meus exercícios resolvidos em linguagem C, divididos 
 - `sequenciais/`: Exercícios básicos de entrada, saída e cálculos simples.
 - `condicionais/`: Exercícios usando estruturas `if`, `else` e `switch`.
 - `repeticao/`: Exercícios com `for`, `while` e `do while`.
+-  `array/`: Exercícios de `array`.
+
 
 💡 Em constante Evolução.
