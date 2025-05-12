@@ -22,6 +22,7 @@ int main () {
     float media_salarial=0;
     float salario_liquidamedia=0;
     float maior_salario = 0;
+    int indice_maior = 0;
 
     //entradas
 
@@ -39,14 +40,15 @@ int main () {
             descontoinss = 0.12;
         }
 
-        if (salariobruto[i] > maior_salario) {
-            maior_salario = salariobruto[i];
-        }
-
         //salario liquido
 
-        salarioliquido = salariobruto[i] - descontoinss;
+        salarioliquido = salariobruto[i] * (1-descontoinss);
         salario_liquidamedia += salarioliquido;
+
+        if (salarioliquido > maior_salario) {
+            maior_salario = salarioliquido;
+            indice_maior = i;
+        }
 
         //resultados obtidos
 
@@ -65,9 +67,8 @@ int main () {
     //saidas
 
     printf("\n\n--------CONCLUSOES FINAIS--------\n\n");
-    printf("A media salarial liquida da empresa foi de: %.2f ", media_salarial);
-    printf("O maior salario adquirido foi o de: R$ %.2f, a qual seria do %s ", maior_salario, funcionario[i]);
+    printf("\nA media salarial liquida da empresa foi de: %.2f ", media_salarial);
+    printf("\nO maior salario adquirido foi o de: R$ %.2f, a qual seria do %s ", maior_salario, funcionario[indice_maior]);
 
     return 0;
-
 }
